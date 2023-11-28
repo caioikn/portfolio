@@ -4,10 +4,12 @@
      <img alt="Static Badge" src="https://img.shields.io/badge/Status-Em_Desenvolvimento-green?style=for-the-badge">
 </p>
 
-Esta é uma solução para o desafio da [Calculadora de Índice de Massa Corporal no Frontend Mentor](https://www.frontendmentor.io/challenges/body-mass-index-calculator-brrBkfSz1T). Os desafios do Frontend Mentor ajudam a aprimorar suas habilidades de codificação, construindo projetos realistas.
+Aqui se encontra meu portfólio com informações sobre tecnologias que tenho conhecimento, além de poder verificar alguns de meus projetos pessoais.
+Design baseado em um desafio do Frontend Mentor.
 
 ## 🔨 Funcionalidades
 - Verificar minhas redes sociais
+- Verificar meus projetos (site no ar e código)
 - Preencher um formulário para contato
 
 ## 💻 Tecnologias utilizadas
