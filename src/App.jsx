@@ -1,11 +1,12 @@
 import styled from 'styled-components';
-import './reset.css';
 import Cabecalho from './components/Header'
 import Banner from './components/Banner';
 import Tecnologias from './components/Tecnologias';
 import Projetos from './components/Projetos';
+import Footer from './components/Footer';
+import Contato from './components/Contato';
 
-const EstilosGlobais = styled.div`
+const Wrapper = styled.div`
     background-color: #151515;
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
@@ -15,12 +16,14 @@ const EstilosGlobais = styled.div`
 
 function App() {
     return (    
-        <EstilosGlobais>
+        <Wrapper>
             <Cabecalho />
             <Banner />
             <Tecnologias />
             <Projetos />
-        </EstilosGlobais>
+            <Contato />
+            <Footer />
+        </Wrapper>
     )
 }
 
