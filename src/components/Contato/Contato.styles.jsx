@@ -21,11 +21,10 @@ export const StyledSection = styled.section`
         background-color: #FFFFFF;
         bottom: 0px;
         content: '';
-        display: block;
         height: 1px;
-        margin: 0 auto;
+        left: 16px;
         position: absolute;
-        width: 90%;
+        width: 92%;
     }
 
     .contato-texto {
@@ -37,16 +36,44 @@ export const StyledSection = styled.section`
 
         h2 {
             color: #FFFFFF;
-            font-size: 40px;
+            font-size: 2.5rem;
             font-weight: 700;
             letter-spacing: -1.136px;
-            line-height: 40px;
+            line-height: 100%;
         }
 
         p {
             color: #D9D9D9;
             text-align: center;
-            line-height: 26px;
+            line-height: 1.625rem;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        padding: 60px 0px 90px 0px;
+
+        &::before {
+            top: 547px;
+            left: -368px;
+        }
+
+        &::after {
+            width: 95%;
+        }
+
+        .contato-texto {
+            margin: 0 auto 48px auto;
+            width: 60%;
+
+            h2 {
+                font-size: 4.5rem;
+                letter-spacing: -2.045px;
+            }
+
+            p {
+                font-size: 1.125rem;
+                line-height: 1.75rem;
+            }
         }
     }
 `;

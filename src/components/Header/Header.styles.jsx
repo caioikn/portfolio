@@ -9,9 +9,19 @@ export const StyledHeader = styled.header`
     padding-top: 20px;
 
     h2 {
-        font-size: 24px;
+        font-size: 1.5rem;
         font-weight: 700;
         letter-spacing: -0.333px;
-        line-height: 32px;
+        line-height: 2rem;
+    }
+
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 30px 30px 0px 30px;
+
+        h2 {
+            font-size: 2rem;
+        }
     }
 `;

@@ -56,4 +56,9 @@ export const StyledItem = styled.li`
             }
         }
     }
+
+    @media screen and (min-width: 768px) {
+        justify-content: space-between;
+        width: 48%;
+    }
 `;

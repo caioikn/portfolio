@@ -87,13 +87,19 @@ export const StyledForm = styled.form`
         }
 
         &::after {
-            /* border: 1px solid #FF6F5B;
+            border: 1px solid #FF6F5B;
             border-radius: 50%;
             content: '!';
             color: #FF6F5B;
+            display: none;
             padding: 2px 10px;
             position: absolute;
-            right: 0px; */
+            right: 0px;
         }
+    }
+
+    @media screen and (min-width: 768px) {
+        margin: 0 auto;
+        width: 60%;
     }
 `;

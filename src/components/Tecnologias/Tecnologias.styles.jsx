@@ -15,4 +15,14 @@ export const StyledSection = styled.section`
         background-image: url('images/pattern-rings.svg');
         right: -344px;
     }
+
+    @media screen and (min-width: 768px) {
+        border-bottom: 0px;
+        margin: 0px 30px;
+        padding: 52px 0px 100px 0px;
+
+        &::after {
+            top: 56%;
+        }
+    }
 `;

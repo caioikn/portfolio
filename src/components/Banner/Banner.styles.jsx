@@ -30,7 +30,6 @@ export const StyledBanner = styled.section`
         position: absolute;
         top: 162px;
         width: 129px;
-
     }
 
     img {
@@ -38,6 +37,29 @@ export const StyledBanner = styled.section`
         height: 242px;
         object-fit: cover;
         width: 174px;
+    }
+
+    @media screen and (min-width: 768px) {
+        align-items: start;
+        flex-direction: row-reverse;
+        gap: 0px;
+        padding: 90px 0px 60px 30px;
+
+        img {
+            margin-top: -30px;
+            height: 486px;
+            width: 322px;
+        }
+
+        &::before {
+            left: -265px;
+            top: 25px;
+        }
+
+        &::after {        
+            right: -65px;
+            top: 413px;
+        }
     }
 `;
 
@@ -50,11 +72,10 @@ export const WrapperText = styled.div`
 
     h1 {
         color: #FFFFFF;
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 700;
         letter-spacing: -1.136px;
-        line-height: 40px;
-        text-align: center;
+        line-height: 100%;
 
         span {
             position: relative;
@@ -99,6 +120,26 @@ export const WrapperText = styled.div`
 
         &:hover {
             color: #4EE1A0;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        align-items: flex-start;
+        gap: 0px;
+        text-align: start;
+        position: absolute;
+        left: 30px;
+        width: 70%;
+
+        h1 {
+            font-size: 4.5rem;
+            letter-spacing: -2.045px;
+            margin-bottom: 66px;
+        }
+
+        p {
+            margin-bottom: 34px;
+            width: 85%;
         }
     }
 `;
