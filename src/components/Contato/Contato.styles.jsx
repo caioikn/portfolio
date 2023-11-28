@@ -6,6 +6,17 @@ export const StyledSection = styled.section`
     position: relative;
     width: 100%;
 
+    &::before {
+        background-image: url('images/pattern-rings.svg');
+        background-repeat: no-repeat;
+        top: 468px;
+        left: -343px;
+        content: '';
+        position: absolute;
+        width: 530px;
+        height: 129px;
+    }
+
     &::after {
         background-color: #FFFFFF;
         bottom: 0px;

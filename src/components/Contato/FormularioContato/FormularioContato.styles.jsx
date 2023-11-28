@@ -21,6 +21,10 @@ export const StyledForm = styled.form`
             border-bottom: 1px solid #4EE1A0;
             outline: none;
         }
+
+        &::placeholder {
+            text-transform: uppercase;
+        }
     }
 
     textarea {
@@ -37,6 +41,10 @@ export const StyledForm = styled.form`
         &:focus {
             border-bottom: 1px solid #4EE1A0;
             outline: none;
+        }
+
+        &::placeholder {
+            text-transform: uppercase;
         }
     }
 

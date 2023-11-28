@@ -11,6 +11,7 @@ const Wrapper = styled.div`
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 500;
     min-height: 100vh;
+    overflow-x: hidden;
     width: 100%;
 `;
 

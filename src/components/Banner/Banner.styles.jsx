@@ -8,11 +8,36 @@ export const StyledBanner = styled.section`
     padding: 50px 16px 80px 16px;
     position: relative;
 
+    &::before {
+        background-image: url('/images/pattern-rings.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        content: '';
+        height: 129px;
+        left: -90%;
+        position: absolute;
+        top: 7%;
+        width: 530px;
+    }
+
+    &::after {        
+        background-image: url('/images/pattern-circle.svg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        content: '';
+        height: 129px;
+        right: -65px;
+        position: absolute;
+        top: 162px;
+        width: 129px;
+
+    }
+
     img {
         filter: grayscale(100%);
         height: 242px;
         object-fit: cover;
-        width: 60%;
+        width: 174px;
     }
 `;
 
