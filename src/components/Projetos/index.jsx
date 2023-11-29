@@ -1,3 +1,4 @@
+import BotaoContato from '../BotaoContato';
 import { StyledSection } from './Projetos.styles';
 import ProjetosItem from './ProjetosItem';
 
@@ -23,7 +24,11 @@ const projetosData = [
 export default function Projetos() {
     return (
         <StyledSection>
-            <h2>Projetos</h2>
+            <div className='projetos-titulo'>
+                <h2>Projetos</h2>
+
+                <BotaoContato />
+            </div>
 
             <ul>
                 {projetosData.map((projeto, index) => {

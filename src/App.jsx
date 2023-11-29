@@ -15,13 +15,21 @@ const Wrapper = styled.div`
     width: 100%;
 `;
 
+const Container = styled.div`
+    margin: 0 auto;
+    max-width: 1440px;
+`;
+
 function App() {
     return (    
         <Wrapper>
-            <Cabecalho />
-            <Banner />
-            <Tecnologias />
-            <Projetos />
+            <Container>
+                <Cabecalho />
+                <Banner />
+                <Tecnologias />
+                <Projetos />
+            </Container>
+
             <Contato />
             <Footer />
         </Wrapper>

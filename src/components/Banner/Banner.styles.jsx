@@ -61,6 +61,25 @@ export const StyledBanner = styled.section`
             top: 413px;
         }
     }
+
+    @media screen and (min-width: 1440px) {
+        padding: 130px 165px 105px 165px;
+
+        img {
+            height: 618px;
+            margin-top: -60px;
+            width: 445px;
+        }
+
+        &::before {
+            left: -100px;
+            top: 62px;
+        }
+
+        &::after {
+            right: 545px;
+        }
+    }
 `;
 
 export const WrapperText = styled.div`
@@ -97,32 +116,6 @@ export const WrapperText = styled.div`
         line-height: 26px;
     }
 
-    a {
-        color: #FFFFFF;
-        font-weight: 700;
-        line-height: 26px;
-        letter-spacing: 2.286px;
-        padding-bottom: 10px;
-        position: relative;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: color 0.3s ease-in-out;
-
-        &::after {
-            background-color: #4EE1A0;
-            bottom: 0px;
-            content: '';
-            height: 2px;
-            left: 0px;
-            position: absolute;
-            width: 100%;
-        }
-
-        &:hover {
-            color: #4EE1A0;
-        }
-    }
-
     @media screen and (min-width: 768px) {
         align-items: flex-start;
         gap: 0px;
@@ -140,6 +133,21 @@ export const WrapperText = styled.div`
         p {
             margin-bottom: 34px;
             width: 85%;
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        left: 165px;
+
+        h1 {
+            font-size: 5.5rem;
+            letter-spacing: -2.5px;
+            width: 70%;
+        }
+
+        p {
+            margin-bottom: 65px;
+            width: 45%;
         }
     }
 `;

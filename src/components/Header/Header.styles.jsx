@@ -24,4 +24,8 @@ export const StyledHeader = styled.header`
             font-size: 2rem;
         }
     }
+
+    @media screen and (min-width: 1440px) {
+        padding: 40px 160px 0px 160px;
+    }
 `;

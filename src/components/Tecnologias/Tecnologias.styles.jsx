@@ -25,4 +25,13 @@ export const StyledSection = styled.section`
             top: 56%;
         }
     }
+
+    @media screen and (min-width: 1440px) {
+        margin: 0px 165px;
+        padding: 72px 0px 140px 0px;
+
+        &::after {
+            top: 38%;
+        }
+    }
 `;

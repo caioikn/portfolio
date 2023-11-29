@@ -1,3 +1,4 @@
+import BotaoContato from '../BotaoContato';
 import { StyledBanner, WrapperText } from './Banner.styles';
 
 export default function Banner() {
@@ -10,7 +11,7 @@ export default function Banner() {
 
                 <p>Desenvolvedor front-end apaixonado por transformar conceitos visuais em experiências digitais incríveis.</p>                
 
-                <a href="#contato">Contato</a>
+                <BotaoContato />
             </WrapperText>
         </StyledBanner>
     );

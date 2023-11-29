@@ -45,4 +45,13 @@ export const StyledList = styled.ul`
             line-height: 1.75rem;
         }
     }
+
+    @media screen and (min-width: 1440px) {
+        column-gap: 30px;
+        row-gap: 60px;
+
+        li {
+            width: 25%;
+        }
+    }
 `;

@@ -61,4 +61,50 @@ export const StyledItem = styled.li`
         justify-content: space-between;
         width: 48%;
     }
+
+    @media screen and (min-width: 1440px) {
+        max-width: 525.59px;
+        
+        img {
+            cursor: pointer;
+            max-width: 100%;
+
+            &:hover ~ .links {
+                background-color: #000000;
+                display: flex;
+                flex-direction: column;
+                height: 385.42px;
+                opacity: 0.75;
+                position: absolute;
+                width: 525.59px;
+                z-index: 1;
+                flex-grow: 1;
+            }
+        }
+
+        .links {
+            align-items: center;
+            cursor: pointer;
+            display: none;
+            flex-direction: column;
+            gap: 60px;
+            justify-content: center;
+
+            &:hover {
+                background-color: #000000;
+                display: flex;
+                height: 385.42px;
+                opacity: 0.75;
+                position: absolute;
+                width: 525.59px;
+                z-index: 1;
+            }
+
+            a {
+                &:hover {
+                    transform: translateY(-3px);
+                }
+            }
+        }
+    }
 `;

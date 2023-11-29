@@ -4,7 +4,9 @@ import { StyledFooter } from "./Footer.styles";
 export default function Footer() {
     return (
         <StyledFooter>
-            <Header />
+            <div className="container-interno">
+                <Header />
+            </div>
         </StyledFooter>
     );
 }

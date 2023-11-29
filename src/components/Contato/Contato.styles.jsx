@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const StyledSection = styled.section`
     background-color: #242424;
-    padding: 60px 16px 90px 16px;
+    padding: 60px 16px 0px 16px;
     position: relative;
     width: 100%;
 
@@ -17,14 +17,9 @@ export const StyledSection = styled.section`
         height: 129px;
     }
 
-    &::after {
-        background-color: #FFFFFF;
-        bottom: 0px;
-        content: '';
-        height: 1px;
-        left: 16px;
-        position: absolute;
-        width: 92%;
+    .container-interno {
+        border-bottom: 1px solid #FFFFFF;
+        padding-bottom: 90px;
     }
 
     .contato-texto {
@@ -57,8 +52,8 @@ export const StyledSection = styled.section`
             left: -368px;
         }
 
-        &::after {
-            width: 95%;
+        .container-interno {
+            margin: 0px 30px;
         }
 
         .contato-texto {
@@ -73,6 +68,36 @@ export const StyledSection = styled.section`
             p {
                 font-size: 1.125rem;
                 line-height: 1.75rem;
+            }
+        }
+    }
+
+    @media screen and (min-width: 1440px) {
+        padding: 85px 0px 0px 0px;
+
+        &::before {
+            left: -205px;
+            top: 327px;
+        }
+
+        .container-interno {
+            display: flex;
+            gap: 220px;
+            max-width: 1110px;
+            border-bottom: 1px solid #FFFFFF;
+            margin: 0px auto;
+        }
+
+        .contato-texto {
+            align-items: flex-start;
+            margin: 0px;
+
+            h2 {
+                font-size: 5.5rem;
+            }
+
+            p {
+                text-align: start;
             }
         }
     }
