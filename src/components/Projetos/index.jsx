@@ -18,6 +18,14 @@ const projetosData = [
         techs: ['HTML', 'CSS', 'Sass/SCSS'],
         projetoLink: 'https://caioikn.github.io/meet/',
         codeLink: 'https://github.com/caioikn/meet'
+    },
+    {
+        imgSrc: 'images/pod.jpg',
+        alt: 'Tela do aplicativo pod',
+        title: 'pod',
+        techs: ['HTML', 'CSS', 'JavaScript'],
+        projetoLink: 'https://pod-self.vercel.app/',
+        codeLink: 'https://github.com/caioikn/pod'
     }
 ];
 
