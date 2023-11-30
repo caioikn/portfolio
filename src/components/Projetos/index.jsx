@@ -12,7 +12,7 @@ const projetosData = [
         codeLink: 'https://github.com/caioikn/calculadora-imc'
     },
     {
-        imgSrc: '/src/components/Projetos/images/meet-landing-page.jpg',
+        imgSrc: './images/meet-landing-page.jpg',
         alt: 'Tela da landing page',
         title: 'Meet - Landing Page',
         techs: ['HTML', 'CSS', 'Sass/SCSS'],
