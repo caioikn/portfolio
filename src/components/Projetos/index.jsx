@@ -4,7 +4,7 @@ import ProjetosItem from './ProjetosItem';
 
 const projetosData = [
     {
-        imgSrc: '/src/components/Projetos/images/calculadora-imc.jpg',
+        imgSrc: '../images/calculadora-imc.jpg',
         alt: 'Tela do aplicativo de calculadora de IMC',
         title: 'Calculador de IMC',
         techs: ['HTML', 'CSS', 'JavaScript'],
@@ -12,7 +12,7 @@ const projetosData = [
         codeLink: 'https://github.com/caioikn/calculadora-imc'
     },
     {
-        imgSrc: './images/meet-landing-page.jpg',
+        imgSrc: '../images/meet-landing-page.jpg',
         alt: 'Tela da landing page',
         title: 'Meet - Landing Page',
         techs: ['HTML', 'CSS', 'Sass/SCSS'],
