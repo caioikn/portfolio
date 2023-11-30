@@ -15,7 +15,7 @@ export const StyledForm = styled.form`
         line-height: 26px;
         padding-bottom: 17px;
         padding-left: 24px;
-        transition: border-bottom 0.3s ease-in-out;
+        /* transition: border-bottom 0.3s ease-in-out; */
 
         &:focus {
             border-bottom: 1px solid #4EE1A0;
@@ -46,6 +46,15 @@ export const StyledForm = styled.form`
         &::placeholder {
             text-transform: uppercase;
         }
+
+        &::-webkit-scrollbar {
+            width: 4px;
+        }
+
+        &::-webkit-scrollbar-thumb {
+            background-color: #D4D4D4;
+            border-radius: 6px;
+        }
     }
 
     button {
@@ -69,13 +78,14 @@ export const StyledForm = styled.form`
         }
     }
 
-    .form-email {
+    .form-campo {
         display: flex;
         flex-direction: column;
         gap: 5px;
         position: relative;
 
-        span {
+        .mensagem-erro-nome,
+        .mensagem-erro-email {
             align-self: flex-end;
             color: #FF6F5B;
             display: none;
@@ -86,7 +96,7 @@ export const StyledForm = styled.form`
             top: 110%;
         }
 
-        &::after {
+        .aviso-imagem {
             border: 1px solid #FF6F5B;
             border-radius: 50%;
             content: '!';
