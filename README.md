@@ -16,7 +16,7 @@ Design baseado em um desafio do Frontend Mentor.
 ![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
 ## 🔗 Links
-- URL do Site Ativo:
+- URL do Site Ativo: [Portfólio](https://portfolio-caioikn.vercel.app/).
 
 ## 🧑🏻‍💻 Autor
 **Desenvolvido por [Caio](https://www.linkedin.com/in/caioikena/)** 💙
