@@ -4,6 +4,14 @@ import ProjetosItem from './ProjetosItem';
 
 const projetosData = [
     {
+        imgSrc: 'images/single-page-design-portfolio.jpg',
+        alt: 'Tela de uma single page de um portfólio para designer',
+        title: 'Design Portfólio - Single Page',
+        techs: ['JavaScript', 'React.js', 'Styled Components'],
+        projetoLink: 'https://single-page-design-portfolio-henna.vercel.app/',
+        codeLink: 'https://github.com/caioikn/single-page-design-portfolio'
+    },
+    {
         imgSrc: 'images/calculadora-imc.jpg',
         alt: 'Tela do aplicativo de calculadora de IMC',
         title: 'Calculador de IMC',
