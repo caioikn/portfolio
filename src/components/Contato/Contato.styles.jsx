@@ -44,6 +44,21 @@ export const StyledSection = styled.section`
         }
     }
 
+    .contato-lista {
+        align-items: center;
+        color: #FFFFFF;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .email,
+        .telefone {
+            align-items: center;
+            display: flex;
+            gap: 5px;
+        }
+    }
+
     @media screen and (min-width: 768px) {
         padding: 60px 0px 90px 0px;
 
@@ -81,23 +96,28 @@ export const StyledSection = styled.section`
         }
 
         .container-interno {
-            display: flex;
-            gap: 220px;
-            max-width: 1110px;
+            align-items: center;
             border-bottom: 1px solid #FFFFFF;
+            display: flex;
+            justify-content: space-between;
             margin: 0px auto;
-        }
+            max-width: 1110px;            
 
-        .contato-texto {
-            align-items: flex-start;
-            margin: 0px;
+            .contato-texto {
+                align-items: flex-start;
+                margin: 0px;
 
-            h2 {
-                font-size: 5.5rem;
+                h2 {
+                    font-size: 5.5rem;
+                }
+
+                p {
+                    text-align: start;
+                }
             }
 
-            p {
-                text-align: start;
+            .contato-lista {
+                align-items: flex-end;
             }
         }
     }
